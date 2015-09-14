@@ -103,6 +103,9 @@ module Log4r
       @trace
     end
 
+    def formatter()
+    end
+
     # Please don't reset the parent
     def parent=(parent)
       @parent = parent
